@@ -2,7 +2,7 @@ To run this application you will be needing an SQL Server instance. Follow below
 
 1. Open the application in Visual Studio 2022.
 2. Go to appsettings.config and populate the required values for
-   - AppSettings:Token with value `MySuperSecreteKeyAndRandomlyGeneratedThatLooksJustAwesomeButItIsNotThisNeedstobeVeryLong!!!111oneeleven'
+   - AppSettings:Token with value `MySuperSecreteKeyAndRandomlyGeneratedThatLooksJustAwesomeButItIsNotThisNeedstobeVeryLong!!!111oneeleven`
    - ConnectionStrings:DefaultConnection (Pointing to your SQL Server instance) ex: `Server={Your Sql Server instance};Database=EventCalendar;Trusted_Connection=True;TrustServerCertificate=true`
    - ConnectionString:Redis (Point connection to your Redis instance) Ex: `localhost:6379`
    - CivicPlusAuth:ClientId (Client Id of CivicPlus API)
